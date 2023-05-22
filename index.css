@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-width: 400px;
+}
+#input-el{
+    width: 50%;
+    height: 35px;
+    margin: 5px 10px;
+    display: block;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 5px;
+}
+button{
+    width: 100px;
+    padding: 5px;
+    height: 30px;
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    margin : 10px;
+}
+#delete-btn{
+    background-color: white;
+    color: green;
+}
+#saved-list-el{
+    list-style-type: none;
+}
+a{
+    margin: 5px 10px;
+    color: green;
+}
+.button-box{
+    display: flex;
+    flex-wrap: wrap;
+}
